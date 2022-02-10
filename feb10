@@ -1,0 +1,29 @@
+Today is 2/6/22 and I'm attempting a new THM course.
+
+This one involves common attacks.
+
+Some of the common attacks listed are social engineering, malware/ransomware, and password/auth attacks.
+
+  "Social Engineering is the term used to describe any cyberattack where a human (rather than a computer) is the target"
+
+  Stuxnet was a malicious program loaded onto a USB drive to target Iran nuclear programme, it was a form of social engineering.
+  
+  "Phishing is one of the most common cyber attack types employed by scammers and bad actors, targeting individuals and businesses indiscriminately."
+
+  There are 3 different types of phishing; general phishing, spearphishing, and whaling.
+  
+  "Malware (short for "malicious software") can be defined as any software designed to perform malicious actions on behalf of an attacker."
+  
+   Popular attacks is infecting a PC with randsomware/malware where it encrypts their important files in lieu of payments.
+   
+   Password/auth attacks deal with having weak passwords and not enough second factor auth sources. 
+   
+   People inherently have weak passwords, they use names and years with an exclamation point instead of a obscure random password thats stored within a password manager.
+   
+   "The industry-standard password storage method is referred to as password hashing. Password hashing (or simply "hashing") involves using complicated mathematical algorithms to take any input and turn it into a unique, fixed-length output in a way that is impossible to reverse. This means that when you sign up, your password will be hashed and stored in the database in a way that stops everyone (including server administrators) from being able to read it!
+    When you try to sign in, the same algorithm is applied to the password that you supply: if the stored hash matches the hash of the password you are trying to log in with (remembering that the same input will always create the same unique output), then you are considered to have successfully authenticated."
+    
+   "credential stuffing" attacks — using your stolen username and password pair against other services to see if you reused them elsewhere.
+   
+   
+
