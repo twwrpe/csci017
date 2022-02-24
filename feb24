@@ -1,0 +1,22 @@
+THM - Mobile Malware Analysis 
+
+The Cabir Virus is the first known virus to affect mobile devices 
+
+It used bluetooth to multiple 
+
+The Cabir virus affected the Symbian operating system
+
+Whenever the Cabir virus affected a device it would display the message "Caribe"
+
+"The worm was created and sent out by researchers as a PoC (Proof of Concept), they did not believe that the mobile operating system could be easily exploited. Since then, malicious programs have become more popular."
+
+I started up a VM and examined a potentially dangerous file "TWFsd2FyZQ.apk"
+
+It was listed a .apk file, which is the the type for mobile devices 
+
+I was able to determine that it's not a complex malware file and it targets android systems 
+
+When completing the 'digging deeper' section I learned about virustotal website where we can analyze the file quite a bit more
+
+I learned that it's a malicious sofware and there's parts ofit that allows the camera to take photos by the malware
+
