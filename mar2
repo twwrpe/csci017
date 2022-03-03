@@ -1,0 +1,51 @@
+THM - Encryption - Crypto 101
+
+Key terms
+
+  Ciphertext - The result of encrypting a plaintext, encrypted data
+
+  Cipher - A method of encrypting or decrypting data. Modern ciphers are cryptographic, but there are many non cryptographic ciphers like Caesar.
+
+  Plaintext - Data before encryption, often text but not always. Could be a photograph or other file
+
+  Encryption - Transforming data into ciphertext, using a cipher.
+
+  Encoding - NOT a form of encryption, just a form of data representation like base64. Immediately reversible.
+
+  Key - Some information that is needed to correctly decrypt the ciphertext and obtain the plaintext.
+
+  Passphrase - Separate to the key, a passphrase is similar to a password and used to protect a key.
+
+  Asymmetric encryption - Uses different keys to encrypt and decrypt.
+
+  Symmetric encryption - Uses the same key to encrypt and decrypt
+
+  Brute force - Attacking cryptography by trying every different password or every different key
+
+  Cryptanalysis - Attacking cryptography by finding a weakness in the underlying maths
+
+  Alice and Bob - Used to represent 2 people who generally want to communicate.
+  
+Cryptography is used to protect confidentiality, ensure integrity, ensure authenticity. You use cryptography every day most likely, and you’re almost certainly reading this now over an encrypted connection.
+ 
+Cryptography deals with some maths, such as the Modulo operator. Python is useful for doing integers.
+ 
+The two main categories of Encryption are symmetric and asymmetric.
+  
+  Symmetric encryption uses the same key to encrypt and decrypt the data. 
+  
+  Asymmetric encryption uses a pair of keys, one to encrypt and the other in the pair to decrypt.
+ 
+RSA is based on the mathematically difficult problem of working out the factors of a large number. 
+
+Digital signatures are a way to prove the authenticity of files.
+
+Certificates are also a key use of public key cryptography, linked to digital signatures. 
+
+PGP stands for Pretty Good Privacy. 
+
+GnuPG or GPG is an Open Source implementation of PGP from the GNU project. 
+
+AES, sometimes called Rijndael after its creators, stands for Advanced Encryption Standard. 
+
+
