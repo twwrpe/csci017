@@ -1,0 +1,21 @@
+THM - Snort
+
+Using SNORT, network admins can spot denial-of-service (DoS) attacks and distributed DoS (DDoS) attacks, Common Gateway Interface (CGI) attacks, buffer overflows,
+and stealth port scans. SNORT creates a series of rules that define malicious network activity, identify malicious packets, and send alerts to users.
+ 
+Intrusion Detection System: An IDS is designed to detect a potential incident, generate an alert, and do nothing to prevent the incident from occurring. 
+
+Intrusion Prevention System: An IPS, on the other hand, is designed to take action to block anything that it believes to be a threat to the protected system.
+
+
+  00>> sudo nano /etc/snort/rules/local.rules
+
+  00>> drop tcp any any -> any any (sid: 1000005;)
+  
+  00>> sudo snort -c /etc/snort/snort.conf -q -Q --daq afpacket -i eth0:eth1 -A full
+ 
+  00>> sudo snort -c /etc/snort/snort.conf -q -Q --daq afpacket -i eth0:eth1 -A console
+  
+  00>> sudo snort -c /etc/snort/snort.conf -q -Q --daq afpacket -i eth0:eth1 -A full
+  
+  00>> sudo snort -c /etc/snort/snort.conf -q -Q --daq afpacket -i eth0:eth1 -A console
