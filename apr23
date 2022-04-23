@@ -1,0 +1,35 @@
+THM - WIFI HACKING 101
+
+  aircrack-ng suite
+
+  aircrack-ng, airodump-ng and airmon-ng to attack WPA networks
+  
+  head /usr/share/wordlists/rockyou.txt -n 10000 | shuf -n 5 -
+  
+  airmon-ng start wlan0
+  
+  wlan0mon
+  
+  airmon-ng check kill
+  
+  airodump-ng
+  
+  –bssid
+  
+  –channel
+  
+  -w
+  
+  BSSID: 02:1A:11:FF:D9:BD
+
+  ESSID: ‘James Honor 8’
+  
+  -b
+  
+  -w
+  
+  -j
+  
+  aircrack-ng -b 02:1A:11:FF:D9:BD -w < location for rockyou.txt > NinjaJc01-01.cap
+  
+  
