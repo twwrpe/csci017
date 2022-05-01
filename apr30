@@ -1,0 +1,31 @@
+THM - crackthehashlevel2
+
+7 hashes
+
+Download common male namelist using wordlistctl
+Set up john config file
+Run John
+
+First download common female namelist using wordlistctl.
+Set up john config rule:
+Run john
+
+First download Mexico town namelist using wordlistctl.
+Clean the wordlist. Remove spaces and change everything to lowercase.
+Run john along with l33t rule and the newly generated wordlist.
+
+Use John with NT rule, Raw-SHA1
+Use Lyricpass to generate song list of the favourite singer Adele.
+Use John with rule r (for reversed character order)
+
+Use pnwgen to with prefix - +1721 (Sint Maarten code) - Refer Wikipedia
+Use john with raw-md5 format.
+
+Steps to Reproduce: Use hashcat with 17600 (SHA3-512)
+
+Refer Blake 2 and Wireguard
+Use CeWL to scrape the words from the website.
+
+Generate the wordlist with 1,2,3,4 and 5 repetition of the words using python script.
+Use john with Raw-Blake2
+Steps to Reproduce: Use john or HashCat with sha512crypt
